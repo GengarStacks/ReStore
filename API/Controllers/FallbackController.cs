@@ -13,8 +13,12 @@ namespace API.Controllers
     {
         public IActionResult Index()
         {
+<<<<<<< HEAD
+            return PhysicalFile(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "index.html"), "text/HTML");
+=======
             return PhysicalFile(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "index.html"),
                  "text/HTML");
+>>>>>>> heroku
         }
     }
 }

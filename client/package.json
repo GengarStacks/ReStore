@@ -41,7 +41,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
+<<<<<<< HEAD
+    "build":"set \"BUILD_PATH=../API/wwwroot\" & react-scripts build",
+=======
     "build": "set \"BUILD_PATH=../API/wwwroot\" & react-scripts build",
+>>>>>>> heroku
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
